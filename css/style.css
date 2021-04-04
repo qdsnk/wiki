@@ -59,8 +59,8 @@ h3 {
 
 .header {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     height: 50px;
     display: flex;
     width: 100%;
@@ -77,7 +77,7 @@ h3 {
     /* max-width: 1202px; */
     margin-left: 64px;
     /* margin-right: 34px; */
-    padding: 0px 40px;
+    padding: 0 40px;
     align-items: center;
 }
 
@@ -125,7 +125,7 @@ h3 {
     border: 1px solid rgb(217, 217, 217);
     border-radius: 5px;
     outline: none;
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
 }
 
 .header .search_bar input:focus {
@@ -148,9 +148,8 @@ h3 {
 
 .header .autorization .sign_in .sign_in_btn {
     height: 36px;
-    padding: 0px 24px;
+    padding: 0 24px;
     align-items: center;
-    background-color: transparent;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -180,9 +179,8 @@ h3 {
 
 .header .autorization .register .register_btn {
     height: 36px;
-    padding: 0px 24px;
+    padding: 0 24px;
     align-items: center;
-    background-color: transparent;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -199,7 +197,7 @@ h3 {
 }
 
 .header .autorization .register .register_btn:hover {
-    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 4px 1px rgba(0,0,0,0.4);
 }
 
 .header.open_menu .header_wrap{
@@ -224,7 +222,7 @@ h3 {
 
 .navigation {
     position: fixed;
-    top: 0px;
+    top: 0;
     width: 64px;
     z-index: 100;
     height: 100%;
@@ -239,7 +237,7 @@ h3 {
     z-index: 100;
     width: 256px;
     transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0s;
-    box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 8px 2px rgba(0,0,0,0.4);
 }
 
 .navigation.open_menu {
@@ -334,11 +332,11 @@ h3 {
     position: absolute;
     height: 100%;
     width: 3px;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
     color: red;
     background-color: rgb(0, 0, 0);
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0 0 3px;
 }
 
 .navigation a.active .menu_item {
@@ -368,7 +366,7 @@ h3 {
     /*position: sticky;
      top: 52px; */
     background-color: rgb(255, 255, 255);
-    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    box-shadow: rgb(60 64 67 / 30%) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 6px 2px;
     align-items: center;
 }
 
@@ -416,7 +414,7 @@ h3 {
 
 .language_change {
     /* padding: 10px; */
-    margin: 0.75rem 0rem;
+    margin: 0.75rem 0;
     float: right;
     width: 2rem;
     height: 2rem;
@@ -442,7 +440,6 @@ h3 {
     line-height: 1.4em;
     padding: 3px;
     font-size: 94%;
-    text-align: left;
 }
 
 
@@ -461,7 +458,6 @@ h3 {
 
 .toc {
     display: table;
-    padding: 7px;
     border: 1px solid rgb(218, 220, 224);
     background-color: #f8f9fa;
     padding: 5px;
